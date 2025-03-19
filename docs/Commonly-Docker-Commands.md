@@ -15,24 +15,24 @@ docker image ls
 ## Remove an image:
 
 ```bash
-docker rmi <image_id_or_name>
+docker rm <image_id_or_name>
 ```
 
-## Push an Image to Docker Hub:
+## Push an Image to DockerHub:
 
-### Step-1 Login to Docker Hub
+### Step-1 Login to DockerHub
 
 ```bash
 docker login -u <username>
 ```
 
-### Step-2 Push to Docker Hub
+### Step-2 Push to DockerHub
 
 ```bash
 docker push <username>/<imagename>:<tag>
 ```
 
-## Pull an Image:
+## Pull an Image from DockerHub:
 
 ```bash
 docker pull <username>/<imagename>:<tag>
@@ -116,10 +116,10 @@ docker logs --tail 100 <container_id_or_name>
 ## Access a running container’s shell:
 
 ```bash
-docker exec -it <container_id_or_name> bash
+docker exec -it <container_id_or_name> sh
 ```
 
-# Working with Volumes and Networks
+# 3. Working with Volumes and Networks
 
 ## List all Docker volumes:
 
@@ -151,7 +151,7 @@ docker network create <network_name>
 docker network rm <network_name>
 ```
 
-# Cleaning Up Resources
+# 4. Cleaning Up Resources
 
 ## Remove unused images:
 
