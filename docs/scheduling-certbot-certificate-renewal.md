@@ -6,7 +6,7 @@
 whereis docker
 ```
 
-### Example output:
+Example output:
 
 ```bash
 /usr/bin/docker
