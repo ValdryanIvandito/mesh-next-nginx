@@ -36,7 +36,7 @@ docker compose up -d --build
 docker compose up -d --build <service_name>
 ```
 
-## Stop Services (Stops and removes containers, networks, and volumes):
+## Stop Services (Stops and removes containers and networks):
 
 ```bash
 docker compose down
