@@ -158,7 +158,7 @@ http {
 
 Then save and exit -> CTRL+0 and press Enter then CTRL+X
 
-## Step-5 Re-run Services
+## Step-5 Re-run services
 
 ```bash
 docker compose up -d
@@ -175,4 +175,5 @@ Open browser and search your site using domain
 # Reference:
 
 [Programonaut Youtube Channel: How to Secure Your Applications with HTTPS Using Docker, NGINX, and Let's Encrypt](https://youtu.be/J9jKKeV1XVE)
+
 [Programonaut Website: Setup SSL with Docker, NGINX, and Lets Encrypt](https://www.programonaut.com/setup-ssl-with-docker-nginx-and-lets-encrypt/)
