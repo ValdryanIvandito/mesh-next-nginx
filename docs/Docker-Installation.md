@@ -81,4 +81,4 @@ sudo systemctl stop docker
 
 # Reference
 
-[Datacamp: Install Docker on Ubuntu](https://www.datacamp.com/tutorial/install-docker-on-ubuntu)
+[Datacamp: Install Docker on Ubuntu](https://www.datacamp.com/tutorial/install-docker-on-ubunt){:target="\_blank"}
