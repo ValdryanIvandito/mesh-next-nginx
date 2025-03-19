@@ -36,10 +36,3 @@ services:
 networks:
   my_network:
     driver: bridge
-
-# COMMANDS:
-# docker compose up -d --build
-# docker compose build
-# docker compose up -d
-# docker ps
-# docker compose down

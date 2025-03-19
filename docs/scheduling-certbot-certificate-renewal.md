@@ -18,13 +18,13 @@ Example output:
 crontab -e
 ```
 
-### Every 2 Months, 1st Day at 5:00 AM:
+Every 2 Months, 1st Day at 5:00 AM:
 
 ```bash
 0 5 1 */2 * sudo /snap/bin/docker compose -f ./docker-compose.yaml up certbot
 ```
 
-### Daily at Midnight:
+Daily at Midnight:
 
 ```bash
 0 0 * * * sudo /snap/bin/docker compose -f ./docker-compose.yaml up certbot
@@ -35,3 +35,7 @@ crontab -e
 ```bash
 systemctl status cron
 ```
+
+# Reference:
+
+[Programonaut: Setup SSL with Docker, NGINX, and Lets Encrypt](https://www.programonaut.com/setup-ssl-with-docker-nginx-and-lets-encrypt/)
